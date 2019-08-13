@@ -2,7 +2,7 @@ import os
 import time
 from functools import reduce
 
-
+#
 
 def measure_temp():
 	temp = os.popen("vcgencmd measure_temp").readline()
